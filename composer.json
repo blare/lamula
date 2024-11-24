@@ -1,0 +1,22 @@
+{
+    "name": "blare/lamula",
+    "description": "Laravel Multiple Languages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blare\\Lamula\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blare\\Lamula\\Providers\\LamulaServiceProvider"
+            ]
+        }
+    }
+}
